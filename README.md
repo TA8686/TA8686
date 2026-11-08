@@ -24,6 +24,16 @@ LuxOS is **under active development**, not a finished operating system or commer
 - [Implementation status — October 2026](https://github.com/TA8686/LuxOS_-witness/blob/main/docs/CURRENT_STATUS_2026-10-18.md)
 - [Professional capabilities and collaboration](https://github.com/TA8686/LuxOS_-witness/blob/main/docs/PROFESSIONAL_PROFILE.md)
 
+## November 2026 — verified open-source engineering
+
+I have begun contributing public, reproducible engineering review to established Python projects:
+
+- **[watchdog PR #1417 — published code-review finding](https://github.com/gorakhargosh/watchdog/pull/1417#issuecomment-6724199052):** independently reproduced a missing-worker-entrypoint restart case, developed an isolated candidate guard, and passed focused mocked regression tests. The fix is local and **has not been submitted or merged**; the original PR belongs to another contributor.
+- **[fsspec issue #2199 — independent regression investigation](https://github.com/fsspec/filesystem_spec/issues/2199):** two concurrent-file-handle tests failed on the checked baseline and passed with someone else's proposed [PR #2194](https://github.com/fsspec/filesystem_spec/pull/2194). I am not the author of that PR.
+- **[Full November 8 engineering record](https://github.com/TA8686/LuxOS_-witness/blob/main/docs/OPEN_SOURCE_ENGINEERING_2026-11-08.md):** testing scope, the separate disposable-worker experiment, original-versus-candidate comparisons, and limitations.
+
+This is **verified laboratory testing and a public code-review contribution**, not a claim of an accepted upstream code patch. AI assistance is disclosed and the private LuxOS evidence corpus remains private.
+
 ## Open to opportunities
 
 I am interested in **paid employment, contract projects, mentorship, and technical collaboration** involving practical AI integration, Python/Linux automation, quality evaluation, reliability and provenance testing, or software for field-service and small-business workflows.
